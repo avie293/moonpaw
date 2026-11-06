@@ -1,0 +1,42 @@
+{
+	"schemaVersion": 1,
+	"id": "${mod_id}",
+	"version": "${version}",
+	"name": "${mod_name}",
+	"description": "${mod_description}",
+	"authors": [
+		"${mod_author}"
+	],
+	"contact": {
+		"homepage": "https://avie.cc/",
+		"sources": "https://github.com/avie293/moonpaw/",
+		"issues": "https://github.com/avie293/avie-issues/issues"
+	},
+	"license": "${mod_license}",
+	"icon": "assets/${mod_id}/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cc.avie.moonpaw.fabric.MoonpawFabric"
+		],
+		"client": [
+			"cc.avie.moonpaw.fabric.MoonpawFabricClient"
+		]
+	},
+	"mixins": [
+		"moonpaw.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": "~${minecraft_version}",
+		"java": ">=25",
+		"fabric-api": "*"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"avie29.discord": "https://discord.gg/57TZ8BJvd9"
+			}
+		}
+	}
+}

@@ -1,0 +1,9 @@
+{
+	"moonpaw.presence.menu": "Im Hauptmenü",
+	"moonpaw.presence.singleplayer": "In einer Einzelspielerwelt",
+	"moonpaw.presence.lan": "In einer LAN-Welt",
+	"moonpaw.presence.multiplayer": "Auf einem Server",
+	"moonpaw.presence.players.one": "1 Spieler online",
+	"moonpaw.presence.players.many": "%s Spieler online",
+	"moonpaw.presence.stage": "Werwolf ist in Entwicklung"
+}
